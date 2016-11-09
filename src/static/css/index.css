@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.-layout {
+  display: flex;
+}
+
+.-grid-6 {
+  flex-basis: 50%;
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.-separator-v {
+  border-right: 2px solid silver;
+}
+
+.-separator-h {
+  border-bottom: 2px solid silver;
+}
+
+.-padding-8 {
+  padding: 8px;
+}
+
+.-padding-24 {
+  padding: 24px;
+}
+
+.-align-center {
+  text-align: center;
+}
+
+.-uppercase {
+  text-transform: uppercase;
+}
+
+.-bold {
+  font-weight: bold;
+}
+
+h1, h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.props-and-cons {
+  max-width: 996px;
+  margin: 24px auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,.4);
+}
+
+.props-and-cons--header {
+  padding: 32px;
+  color: white;
+  background: #666666;
+}
+
+.props-and-cons input {
+  border: none;
+}
